@@ -75,6 +75,8 @@ call dein#add('nathanaelkane/vim-indent-guides')
 call dein#add('vim-scripts/AnsiEsc.vim')
 " 行末の半角スペースを可視化
 call dein#add('bronson/vim-trailing-whitespace')
+" Slim対応
+call dein#add('slim-template/vim-slim')
 
 " ctrlp
 call dein#add('ctrlpvim/ctrlp.vim')
