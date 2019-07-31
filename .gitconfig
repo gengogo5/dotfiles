@@ -1,0 +1,16 @@
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	cm = commit
+	g = grep
+	df = diff
+[grep]
+	lineNumber = true
+[push]
+	default = current
+[core]
+	autocrlf = false
+	quotepath = false
+[color]
+	ui = true
