@@ -78,6 +78,17 @@ call dein#add('bronson/vim-trailing-whitespace')
 " Slim対応
 call dein#add('slim-template/vim-slim')
 
+" fzf対応
+call dein#add('junegunn/fzf', { 'build': './install --all', 'merged': 0 })
+call dein#add('junegunn/fzf.vim', { 'depends': 'fzf' })
+nnoremap <silent> ,f :GFiles<CR>
+nnoremap <silent> ,F :GFiles?<CR>
+nnoremap <silent> ,b :Buffers<CR>
+nnoremap <silent> ,l :BLines<CR>
+nnoremap <silent> ,h :History<CR>
+nnoremap <silent> ,m :Mark<CR>
+
+
 " ctrlp
 call dein#add('ctrlpvim/ctrlp.vim')
 nnoremap <silent> <Space>cf :CtrlPCurWD<CR>
