@@ -1,0 +1,25 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "git.path": "/usr/local/bin/git",
+   
+    // jjでEsc
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j","j"],
+            "after": ["<Esc>"]
+        }
+    ],
+
+    // easymotion
+    "vim.easymotion": true,
+    "vim.leader": "<space>",
+
+    "editor.minimap.enabled": false,
+    "editor.renderControlCharacters": true,
+    "editor.fontFamily": "Ricty Diminished, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 15,
+    "editor.tabSize": 2,
+    "terminal.integrated.fontSize": 17,
+    "editor.lineHeight": 16,
+}
