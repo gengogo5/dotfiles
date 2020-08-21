@@ -25,4 +25,5 @@
     "editor.lineHeight": 16,
     "window.zoomLevel": 0,
     "vsicons.dontShowNewVersionMessage": true,
+    "workbench.iconTheme": "vscode-icons",
 }
