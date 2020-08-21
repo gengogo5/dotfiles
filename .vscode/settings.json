@@ -1,5 +1,6 @@
 {
     "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.enablePreview": false,
     "terminal.integrated.shell.osx": "/bin/zsh",
     "git.path": "/usr/local/bin/git",
    
@@ -22,4 +23,6 @@
     "editor.tabSize": 2,
     "terminal.integrated.fontSize": 17,
     "editor.lineHeight": 16,
+    "window.zoomLevel": 0,
+    "vsicons.dontShowNewVersionMessage": true,
 }
