@@ -22,6 +22,8 @@ nnoremap <silent><Esc><Esc> :<C-u>set nohlsearch!<CR>
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
 " 入力モード中に素早くjjと入力した場合はESCとみなす
 inoremap jj <Esc>
+" タグリスト
+nnoremap <silent> tt :Tlist<CR>
 
 " 括弧可視化
 set showmatch " 括弧の対応関係を一瞬表示する
@@ -54,10 +56,6 @@ call dein#add('Shougo/vimproc.vim', {'build': 'make'})
 call dein#add('Shougo/unite.vim')
 " Unite.vimで最近使ったファイルを表示できるようにする
 call dein#add('Shougo/neomru.vim')
-" ファイルをtree表示してくれる
-call dein#add('scrooloose/nerdtree')
-" Gitを便利に使う
-" call dein#add('tpope/vim-fugitive')
 
 " Rails向けのコマンドを提供する
 " call dein#add('tpope/vim-rails')
@@ -77,6 +75,10 @@ call dein#add('vim-scripts/AnsiEsc.vim')
 call dein#add('bronson/vim-trailing-whitespace')
 " Slim対応
 call dein#add('slim-template/vim-slim')
+" vimlist
+call dein#add('vim-scripts/taglist.vim')
+
+call dein#add('kchmck/vim-coffee-script')
 
 " fzf対応
 call dein#add('junegunn/fzf', { 'build': './install --all', 'merged': 0 })
